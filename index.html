@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Práctica con JS">
+    <meta name="author" content="Kurai Tsukino">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Práctica de JS</title>
 </head>
 <body>
-    Hola Mundo
+    <header>
+        <h1>Práctica de JS</h1>
+    </header>
+    <main>
+        <h3>Sorting an array: </h3>
+        <p>Introduce numbers separated with commas.</p>
+        <form>
+            <input id="arr" type="text" name="num" placeholder="1, 2, 3," pattern="[0-9,]" title="Solo agrega números separados con comas." required="true">
+            <button type="button" onclick="sort()">Sort</button>
+        </form>
+        <p id="valueInput"></p>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2022 - Code by Sandra Mena Cortés</p>
+    </footer>
+    <script src="scripts/index.js"></script>
 </body>
 </html>
