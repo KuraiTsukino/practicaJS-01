@@ -5,5 +5,4 @@ function sort() {
        return a - b
    } );
    document.getElementById("valueInput").innerHTML = sort;
-   console.log(sort);
 }
